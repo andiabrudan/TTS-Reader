@@ -16,13 +16,14 @@ First, clone the repository. You can do this with git or, if you're a troglodyte
 Second, move the folder somewhere you are confident you will not accidentally delete it. A good place is "C:\Program Files\Google\Chrome\"
 
 Finally
-    * open Chrome
-    * click the 3 dots in the top right
-    * select `More Tools → Extensions`
-    * toggle `Developer mode` in the top right
-    * click `Load unpacked` in the top left
-    * navigate to the folder that contains the extension (e.g. "C:\Program Files\Google\Chrome\TTS-Reader")
-    * click `Select Folder`
+* open Chrome
+* click the 3 dots in the top right
+* select `More Tools → Extensions`
+* toggle `Developer mode` in the top right
+* click `Load unpacked` in the top left
+* navigate to the folder that contains the extension (e.g. "C:\Program Files\Google\Chrome\TTS-Reader")
+* click `Select Folder`
+
 Extra
-    * Go to `Details`
-    * Toggle `Allow in incognito`
+* Go to `Details`
+* Toggle `Allow in incognito`
