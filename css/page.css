@@ -1,0 +1,165 @@
+
+
+#ttsreaderx>#ttsreaderx_nonpremium{
+    position:fixed;
+    top:15%;
+    left:10%;
+    width: 80%;
+    height:auto;
+    background:lightgray;
+    direction:ltr;
+    animation: fade 5s linear;
+}
+
+#ttsreaderx .purchasebuttons {
+    background-color: #4CAF50; /* Green */
+    background:#4CAF50;
+    cursor: pointer;
+    color: white;
+    border-radius: 12px;
+    font-weight: bold;
+    -webkit-transition-duration: 0.8s; /* Safari */
+    transition-duration: 0.8s;
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+/*tr:nth-child(even) {background:#FFF }*/
+#ttsreaderx tr {background: transparent}
+
+#ttsreaderx thead tr th { background-color: rgba(171, 249, 140, 0.35)}
+
+
+#ttsreaderx table {
+    margin: 0 auto;
+}
+
+#ttsreaderx table,#ttsreaderx td,#ttsreaderx th{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+#ttsreaderx .purchasebuttons:hover{
+    background-color: #93ba00;
+}
+
+#ttsreaderx #purchasetext{
+    padding: 0px;
+}
+
+#ttsreaderx th,#ttsreaderx thead,#ttsreaderx tr,#ttsreaderx tbody{
+        margin:auto;
+}
+
+
+#ttsreaderx_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #eeeeee;
+    border-bottom: solid gray 1px;
+    z-index: 999999999999999999;
+}
+
+
+#ttsreaderx_loader {
+    display: block;
+    margin: 50px auto;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.ttsreaderx-btn {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-size: contain;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.ttsreaderx-btn:hover {
+    opacity: 1;
+}
+
+#ttsreaderx {
+    padding: 20px;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    z-index: 999999999999999999;
+    background-color: white;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+#ttsreaderx-content {
+    max-width: 600px;
+    margin: auto;
+    font-family: inherit;
+}
+
+.ttsreaderx {
+    all:initial;
+    display: block;
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    font-family: inherit;
+    margin: 0.5em 0;
+    text-align: justify;
+}
+
+h1.ttsreaderx  {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em 0 0.5em 0;
+}
+
+h2.ttsreaderx {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em 0 0.5em 0;
+}
+
+h3.ttsreaderx,h4.ttsreaderx,h5.ttsreaderx,h6.ttsreaderx,h7.ttsreaderx,h8.ttsreaderx,h9.ttsreaderx {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+p.ttsreaderx, article.ttsreaderx {
+    white-space: normal;
+}
+
+img.ttsreaderx {
+    display: block;
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+a.ttsreaderx, span.ttsreaderx, sup.ttsreaderx, sub.ttsreaderx, code.ttsreaderx, pre.ttsreaderx, q.ttsreaderx, b.ttsreaderx, u.ttsreaderx, i.ttsreaderx {
+    display: inline-block;
+}
+
+
+
+

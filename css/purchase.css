@@ -1,0 +1,39 @@
+body {
+    background: url('../images/wood_texture.jpg');
+    min-width: 500px;
+    padding: 0;
+    font-size: 100%;
+}
+
+.purchasebuttons {
+    background-color: #4CAF50; /* Green */
+    cursor: pointer;
+    color: white;
+    border-radius: 12px;
+    font-weight: bold;
+    -webkit-transition-duration: 0.8s; /* Safari */
+    transition-duration: 0.8s;
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+/*tr:nth-child(even) {background:#FFF }*/
+tr {background: transparent}
+thead tr th { background-color: rgba(171, 249, 140, 0.35)}
+
+table {
+    margin: 0 auto;
+}
+
+table,td,th{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+.purchasebuttons:hover{
+    background-color: #93ba00;
+}
+
+#purchasetext{
+    padding: 0px;
+}

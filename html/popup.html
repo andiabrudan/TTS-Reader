@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html class="no-js consumer" lang="en" xmlns: xmlns:> <!-- Page Specific -->
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href="http://www.ttsreader.com/speaker_icon.ico" rel="icon" type="image/x-icon">
+
+	<title>TTSReader | Text To Speech Reader. Online. Accurate. Free.</title>
+	<meta content="Free online Text To Speech Reader. Accurate with natural voices, multilingual. Real time. Free & always will be." name="description"/>
+
+	<!--<link rel="stylesheet" type="text/css" href="http://ttsreader.com/style4.min.css"> <!-- TODO: update in all languages-->
+	<link rel="stylesheet" type="text/css" href="../css/popup.css">
+</head>
+
+
+<body>
+
+<div id="application">
+
+	<div id="buttons_row">   <!-- TODO: Change this whole div in all languages -->
+		<!-- TODO: enable mp3 download
+        <div id="download_mp3_button"></div>
+        -->
+
+		<div id="left_half_container">
+			<div id="left_buttons">
+				<div class="ctrl-btn" id="clear_button"  title="Clear text"></div>
+				<div class="ctrl-btn" id="reload_button"  title="Reload page text"></div>
+				<div class="ctrl-btn" id="reset_button"  title="Start from beginning"></div>
+				<div class="ctrl-btn" id="readability_button"  title="Toggle Readability-Mode">
+					<div id="readability_btn_img"></div>
+				</div>
+				<!--<div class="ctrl-btn" id="record_button" title="Record and Save Sound"></div>-->
+				<!--<div id="reload_button" title="Reload page text"></div>-->
+				<!--<span id="clear_button" class="glyphicon glyphicon-trash" ></span>
+				<span id="reset_button"  class="glyphicon glyphicon-rewind"></span>
+				<span id="reload_button" class="glyphicon glyphicon-refresh"></span>
+				play, pause, rewind, refresh, trash  -->
+			</div>
+		</div>
+		<div id="right_half_container">
+			<div id="right_buttons">
+				<div class="top-container">
+				<select id="select_language">
+					<option value="Google UK English Male">UK English (default)</option>
+					<!--<option value="en-US">US English</option>
+					<option value="es-ES">Español</option>
+					<option value="fr-FR">Français</option>
+					<option value="it-IT">Italiano</option>
+					<option value="de-DE">Deutsch</option>
+					<option value="ja-JP">日本人</option>
+					<option value="ko-KR">한국의</option>
+					<option value="zh-CN">中国的</option>-->
+				</select>
+				</div>
+				<div class="bottom-container">
+				<select id="select_speed">
+					<option value=0.9>Normal Speed</option>
+					<option value=0.6>Very slow</option>
+					<option value=0.75>Slow</option>
+					<option value=1.2>Fast</option>
+					<option value=1.35>Very Fast</option>
+					<option value=1.5>Too Fast</option>
+				</select>
+				</div>
+			</div>
+		</div>
+		<div id="speak_button_container">
+			<div id="speak_button" title="Play / Pause (shift+alt+downArrow)">
+			</div>
+		</div>
+	</div>
+
+	<!-- TODO: change the following div to textarea in all languages -->
+	<textarea id="text_box" placeholder='Click the Play button to read out the whole page. Feel free to edit the text here, or type in your own content.
+You can control which part of the text is being read by moving the caret to the desired location.
+'></textarea>
+
+	<div class="zero_height_container">
+		<textarea id="text_box_mirror"></textarea>
+	</div>
+
+</div>
+
+<!-- TODO: Switch to jsm/.min.js version for production, js/.js for dev. -->
+<script type="text/javascript" src="../jsm/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="../jsm/buy.min.js"></script>
+<script type="text/javascript" src="../jsm/appinitiater.min.js"></script>
+<script src = "../jsm/popup.min.js"></script>
+
+
+
+</body>
+</html>
