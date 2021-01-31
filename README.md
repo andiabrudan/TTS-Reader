@@ -1,5 +1,7 @@
 # TTS-Reader
 
+This is a "fork" of chrome.google.com/webstore/detail/pakknklefcjdhejnffafpeelofiekebg
+
 TTS-Reader is a simple chrome extension that helps you read text online. It is simple to use and provides great value to your productivity.
 
 * Context menu integration. All you have to do is highlight some text and right click.

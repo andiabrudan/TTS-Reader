@@ -18,9 +18,6 @@
     "default_icon": "icon.png",
     "default_popup": "html/popup.html"
   },
-  "sandbox": {
-    "pages": ["html/sandboxed.html"]
-  },
 
   "permissions": [
     "activeTab",

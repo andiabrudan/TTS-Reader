@@ -11,19 +11,6 @@
     animation: fade 5s linear;
 }
 
-#ttsreaderx .purchasebuttons {
-    background-color: #4CAF50; /* Green */
-    background:#4CAF50;
-    cursor: pointer;
-    color: white;
-    border-radius: 12px;
-    font-weight: bold;
-    -webkit-transition-duration: 0.8s; /* Safari */
-    transition-duration: 0.8s;
-    padding: 8px 12px;
-    font-size: 16px;
-}
-
 /*tr:nth-child(even) {background:#FFF }*/
 #ttsreaderx tr {background: transparent}
 
@@ -37,10 +24,6 @@
 #ttsreaderx table,#ttsreaderx td,#ttsreaderx th{
     border: 1px solid lightgray;
     border-collapse: collapse;
-}
-
-#ttsreaderx .purchasebuttons:hover{
-    background-color: #93ba00;
 }
 
 #ttsreaderx #purchasetext{

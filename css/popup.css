@@ -171,30 +171,10 @@ body {
 tr {background: #CCC}
 thead tr th { background-color: lawngreen}
 
-
-
 table,td,th{
     border: 1px solid black;
     border-collapse: collapse;
 }
-
-.purchasebuttons{
-    background-color: #008CBA;
-    font-weight: bold;
-    border-radius: 50%;
-    -webkit-transition-duration: 0.8s; /* Safari */
-    transition-duration: 0.8s;
-    padding: 8px 12px;
-    font-size: 16px;
-
-}
-
-.purchasebuttons:hover {
-    background-color: #4CAF50; /* Green */
-    color: white;
-    border-radius: 12px;
-}
-
 
 #purchasetext{
     padding: 0px;
